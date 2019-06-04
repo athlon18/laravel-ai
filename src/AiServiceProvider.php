@@ -7,10 +7,10 @@
  */
 
 
-namespace Crisen\LaravelAi;
+namespace Waimao\LaravelAi;
 
-use Crisen\AI\AI;
-use Crisen\AI\DriverFactory;
+use Waimao\AI\AI;
+use Waimao\AI\DriverFactory;
 use Illuminate\Support\ServiceProvider;
 
 
@@ -29,7 +29,8 @@ class AiServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            dirname(__DIR__) . '/config/laravel-ai.php', 'ai'
+            dirname(__DIR__) . '/config/laravel-ai.php',
+            'ai'
         );
 
 
@@ -45,7 +46,4 @@ class AiServiceProvider extends ServiceProvider
             return $app['ai']->driver();
         });
     }
-
-
 }
-

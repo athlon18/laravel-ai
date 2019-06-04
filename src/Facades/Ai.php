@@ -6,7 +6,7 @@
  * description:
  */
 
-namespace Crisen\LaravelAi\Facades;
+namespace Waimao\LaravelAi\Facades;
 
 
 use Illuminate\Support\Facades\Facade;

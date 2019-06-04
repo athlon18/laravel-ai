@@ -6,10 +6,10 @@
  * description:
  */
 
-namespace Crisen\LaravelAi;
+namespace Waimao\LaravelAi;
 
 
-use Crisen\AI\DriverFactory;
+use Waimao\AI\DriverFactory;
 use http\Exception\InvalidArgumentException;
 use Illuminate\Support\Arr;
 
@@ -63,5 +63,4 @@ class AiManager
     {
         return $this->factory->make($name, $config);
     }
-
 }
