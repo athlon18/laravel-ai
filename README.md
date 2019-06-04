@@ -1,10 +1,12 @@
+# 基于crisen/laravel-ai 做的衍生版本，如要使用BAIDU_AI，请使用crisen/laravel-ai的包
+
 # laravel-ai
 使用laravel ai优雅的调用ai客户端
 
 ## 安装
 
 ~~~
-composer require "crisen/laravel-ai":"^1.0.0"
+composer require "waimao/laravel-ai":"^1.0.0"
 ~~~
 
 非laravel版本,[点击这里](https://github.com/crisenchou/ai)
@@ -20,7 +22,7 @@ app.php中
     
     .....
     
-    Crisen\LaravelAi\AiServiceProvider::class,
+    Waimao\LaravelAi\AiServiceProvider::class,
     
 ];
 
@@ -29,14 +31,14 @@ app.php中
     
     ....
     
-    'Ai' => Crisen\LaravelAi\Facades\Ai::class,
+    'Ai' => Waimao\LaravelAi\Facades\Ai::class,
 ]
 ~~~
 
 ## 发布资源
 
 ~~~
-artisan vendor:publish --provider=Crisen\LaravelAi\AiServiceProvider
+artisan vendor:publish --provider=Waimao\LaravelAi\AiServiceProvider
 ~~~
 
 ### 配置
@@ -69,7 +71,7 @@ return [
 ~~~php+HTML
 namespace someNameSpace;
 
-use Crisen\LaravelAi\Facades\Ai;
+use Waimao\LaravelAi\Facades\Ai;
 
 ....
 
