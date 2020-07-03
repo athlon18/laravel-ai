@@ -6,7 +6,7 @@
  * description:
  */
 
-namespace Waimao\LaravelAi\Facades;
+namespace Athlon18\LaravelAi\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
