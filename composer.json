@@ -1,5 +1,5 @@
 {
-    "name": "waimao/laravel-ai",
+    "name": "athlon18/laravel-ai",
     "description": "优雅的laravel ai客户端",
     "keywords": [
         "人脸识别",
@@ -8,8 +8,8 @@
         "laravel ai"
     ],
     "require": {
-        "laravel/framework": "^5.4",
-        "waimao/ai": "^1.0.0"
+        "laravel/framework": "^7.0",
+        "athlon18/ai": "^1.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
@@ -23,8 +23,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Waimao\\LaravelAi\\": "src/",
-            "Waimao\\LaravelAi\\Tests\\": "tests/"
+            "Athlon18\\LaravelAi\\": "src/",
+            "Athlon18\\LaravelAi\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev"
