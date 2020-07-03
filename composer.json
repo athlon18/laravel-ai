@@ -9,7 +9,7 @@
     ],
     "require": {
         "laravel/framework": "^7.0",
-        "athlon18/ai": "^1.0.0"
+        "waimao/ai": "^1.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
