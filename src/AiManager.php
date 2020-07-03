@@ -9,7 +9,7 @@
 namespace Waimao\LaravelAi;
 
 
-use Waimao\AI\DriverFactory;
+use Athlon18\AI\DriverFactory;
 use http\Exception\InvalidArgumentException;
 use Illuminate\Support\Arr;
 
