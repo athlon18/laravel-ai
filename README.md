@@ -8,7 +8,7 @@
 ## 安装
 
 ~~~
-composer require "waimao/laravel-ai":"^1.0.0"
+composer require athlon18/laravel-ai":dev-master -vvv
 ~~~
 
 非laravel版本,[点击这里](https://github.com/crisenchou/ai)
@@ -24,7 +24,7 @@ app.php中
     
     .....
     
-    Waimao\LaravelAi\AiServiceProvider::class,
+    Athlon18\LaravelAi\AiServiceProvider::class,
     
 ];
 
@@ -33,14 +33,14 @@ app.php中
     
     ....
     
-    'Ai' => Waimao\LaravelAi\Facades\Ai::class,
+    'Ai' => Athlon18\LaravelAi\Facades\Ai::class,
 ]
 ~~~
 
 ## 发布资源
 
 ~~~
-artisan vendor:publish --provider=Waimao\LaravelAi\AiServiceProvider
+artisan vendor:publish --provider=Athlon18\LaravelAi\AiServiceProvider
 ~~~
 
 ### 配置
@@ -73,7 +73,7 @@ return [
 ~~~php+HTML
 namespace someNameSpace;
 
-use Waimao\LaravelAi\Facades\Ai;
+use Athlon18\LaravelAi\Facades\Ai;
 
 ....
 
