@@ -9,8 +9,8 @@
 
 namespace Waimao\LaravelAi;
 
-use Waimao\AI\AI;
-use Waimao\AI\DriverFactory;
+use Athlon18\AI\AI;
+use Athlon18\AI\DriverFactory;
 use Illuminate\Support\ServiceProvider;
 
 
