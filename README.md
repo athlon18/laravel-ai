@@ -1,4 +1,4 @@
-# 基于crisen/laravel-ai 做的衍生版本，如要使用BAIDU_AI，请使用crisen/laravel-ai的包
+# 基于crisen/laravel-ai 做的衍生版本，如要使用BAIDU_AI，请使用crisen/laravel-ai的包 支持laravel 7
 
 基于crisen/laravel-ai 做的衍生版本，如要使用BAIDU_AI，请使用crisen/laravel-ai的包
 
