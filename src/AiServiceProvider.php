@@ -7,10 +7,10 @@
  */
 
 
-namespace Waimao\LaravelAi;
+namespace Athlon18\LaravelAi;
 
-use Athlon18\AI\AI;
-use Athlon18\AI\DriverFactory;
+use Waimao\AI\AI;
+use Waimao\AI\DriverFactory;
 use Illuminate\Support\ServiceProvider;
 
 
