@@ -6,10 +6,10 @@
  * description:
  */
 
-namespace Waimao\LaravelAi;
+namespace Athlon18\LaravelAi;
 
 
-use Athlon18\AI\DriverFactory;
+use Waimao\AI\DriverFactory;
 use http\Exception\InvalidArgumentException;
 use Illuminate\Support\Arr;
 
